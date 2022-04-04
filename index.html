@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Общая информация</legend>
+            <div class="info__box">
+                <label class="label__info" for="surename">Фамилия</label>
+                <input type="text" name="info" id="surename" placeholder="Иванов">
+            </div>
+            <div class="info__box">
+                <label class="label__info" for="name">Имя</label>
+                <input type="text" name="info" id="name" placeholder="Иван">
+            </div>
+            <div class="info__box">
+                <label class="label__info" for="secondname">Отчество</label>
+                <input type="text" name="info" id="secondname" placeholder="Иванович">
+            </div>
+            <div class="info__box">
+                <label class="label__info" for="email">email</label>
+                <input type="email" name="info" id="email" placeholder="mail@mail.ru">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Пол</legend>
+
+                <input type="radio" name="floor" id="size-1" value="Man">
+                <label class="floor__man" for="size-1">М</label>
+
+                <input type="radio" name="floor" id="size-2" value="woman">
+                <label for="size-2">Ж</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Хобби</legend>
+
+            <input type="checkbox" name="hobby" id="size-1" value="Drawing">
+            <label for="size-1">Рисование</label>
+
+            <input type="checkbox" name="hobby" id="size-2" value="Reading">
+            <label for="size-2">Чтение</label>
+
+            <input type="checkbox" name="hobby" id="size-3" value="Knitting">
+            <label for="size-3">Вязание</label>
+
+            <input type="checkbox" name="hobby" id="size-4" value="Сooking">
+            <label for="size-4">Кулинария</label>
+        </fieldset>
+        
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>

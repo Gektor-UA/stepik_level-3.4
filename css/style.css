@@ -1,0 +1,14 @@
+fieldset{
+    width: 500px;
+    margin-bottom: 20px;
+}
+.info__box{
+    margin: 10px 0;
+}
+.label__info{
+    width: 80px;
+    display: inline-block;
+}
+.floor__man{
+    margin-right: 50px;
+}
